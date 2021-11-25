@@ -39,4 +39,4 @@ People might find lost items at the gyms and could return belongings knowing thi
 - SUBQUERY IN: This query shows a list of all the players played on a team with at least 5 wins. This adds value because it shows the players that are on teams that are above .500 win percentage. Assuming all teams that are .500 win percentage and up are projected to make the playoffs, teams can predict who they will face in the playoffs to get ready for future matchups.
 
 #### The full analysis can be found in _PittClubSports.docx_ and its respective SQL in _PittClubSports.sql_
-#### Other file included is the ER Diagram (.mwb)
+#### Other file included is the ER Diagram _(.mwb)_
