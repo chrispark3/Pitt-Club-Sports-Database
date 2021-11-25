@@ -277,7 +277,7 @@ INSERT INTO game_player (points, fk_game_id, fk_player_id)
 /* 1) "Where does each club player reside?" 
 SIMPLE TABLE SELECT: This query displays all the names of the players and where they live. 
 This adds value because it allows people to see what communities/dorms the players are a part of. 
-People might find lost items at the gyms and could return belongings knowing this information */
+People might find lost items at the gyms and could return belongings knowing this information. */
 SELECT CONCAT(player.last_name, ', ', player.first_name) AS FullName, housing 
 FROM club_sports.player;   
 
@@ -310,7 +310,7 @@ WHERE last_name = 'Park'
 GROUP BY FullName
 ;
 
-/* 5) "How much money was made in all of the home games combined?
+/* 5) "How much money was made in all of the home games combined?"
 AGGREGATE: This query shows how much money is made in all home games in total.
 This adds value because it shows staff how the popularity of the school club games are doing.
 If the total revenue of home games do not meet the budget, staff could increase the price of tickets. */
